@@ -10,4 +10,9 @@ public class TestController {
 	public String welcome() {
 		return "Spring Security";
 	}
+
+	@GetMapping("/login")
+	public String login() {
+		return "Login page";
+	}
 }
